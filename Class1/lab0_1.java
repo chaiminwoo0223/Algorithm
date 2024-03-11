@@ -5,15 +5,6 @@ import java.util.Scanner;
 // 숫자 세기
 public class lab0_1 {
 
-	// 평균을 계산하는 메소드
-	public static double calculateAverage(int[] nums) {
-		double sum = 0;
-		for (int num : nums) {
-			sum += num; // 배열의 각 원소를 합계에 더함
-		}
-		return sum / nums.length; // 합계를 배열의 길이로 나누어 평균을 계산
-	}
-
 	public static void main(String[] args) {
 		System.out.println("lab0_1:최민우");
 		Scanner scanner = new Scanner(System.in); // Scanner 객체 생성
@@ -42,5 +33,14 @@ public class lab0_1 {
 		System.out.println(mean);
 		System.out.println(count);
 		scanner.close(); // Scanner 객체 닫기
+	}
+
+	// 평균을 계산하는 메소드
+	private static double calculateAverage(int[] nums) {
+		double sum = 0;
+		for (int num : nums) {
+			sum += num; // 배열의 각 원소를 합계에 더함
+		}
+		return sum / nums.length; // 합계를 배열의 길이로 나누어 평균을 계산
 	}
 }
