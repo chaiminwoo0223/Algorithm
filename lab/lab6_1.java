@@ -2,6 +2,7 @@ package lab;
 
 // 이진검색트리1
 public class lab6_1 {
+	
 	public static void main(String[] args) {
 		System.out.println("lab6_1:최민우");
 
