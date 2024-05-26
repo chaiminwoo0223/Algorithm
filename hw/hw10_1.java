@@ -2,7 +2,7 @@ package hw;
 
 import java.util.Scanner;
 
-// 최소 신장 트리
+// 최소신장트리
 public class hw10_1 {
 
 	public static void main(String[] args) {
