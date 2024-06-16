@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class hw9_1 {
 
 	public static void main(String[] args) {
-		System.out.println("hw8_1:최민우");
+		System.out.println("hw9_1:최민우");
 		Scanner input = new Scanner(System.in); // Scanner 객체 생성
 		int n = input.nextInt(); // 계단 개수 입력
 
