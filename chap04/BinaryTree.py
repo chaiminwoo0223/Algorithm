@@ -8,6 +8,9 @@ class BNode:
         self.left = left
         self.right = right
 
+    def isLeaf(self):
+        return self.left is None and self.right is None
+
 # 이진 트리의 전위순회
 def preorder(n):
     if n is not None:
