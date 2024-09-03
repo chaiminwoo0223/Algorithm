@@ -55,4 +55,3 @@ class ArrayQueue:
         self.array[self.rear] = item
         if self.isEmpty(): # rear == front
             self.front = (self.front + 1) % self.capacity
-        
