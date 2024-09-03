@@ -59,4 +59,3 @@ def calc_height(n):
         return hLeft + 1
     else:
         return hRight + 1 
-    
