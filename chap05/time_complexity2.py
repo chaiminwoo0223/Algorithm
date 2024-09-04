@@ -8,5 +8,5 @@ def find_key(A, key):
 
 print(find_key([i for i in range(1, 10)], 1)) # 최선
 print(find_key([i for i in range(1, 10)], 4)) # 평균
-print(find_key([i for i in range(1, 10)], 9)) # 최악1
-print(find_key([i for i in range(1, 10)], 10)) # 최악2
+print(find_key([i for i in range(1, 10)], 9)) # 최악
+print(find_key([i for i in range(1, 10)], 10)) # 최악(-1)
