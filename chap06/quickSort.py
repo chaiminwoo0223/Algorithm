@@ -26,4 +26,4 @@ def partition(A, left, right):
 data = [5, 3, 8, 4, 9, 1, 6, 2, 7] # 입력 리스트
 print("Original:", data)
 quick_sort(data, 0, len(data)-1) # 퀵 정렬
-print("QuickSort:", data)
+print("Quick:", data)
