@@ -13,4 +13,4 @@ def insertion_sort(A):
 data = [6, 3, 7, 4, 9, 1, 5, 2, 8]
 print("Original:", data)
 insertion_sort(data)
-print("Selection:", data)
+print("Insertion:", data)
