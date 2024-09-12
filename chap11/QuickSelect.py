@@ -24,9 +24,7 @@ def partition(A, left, right):
             A[low], A[high] = A[high], A[low]
 
     A[left], A[high] = A[high], A[left] # pivot과 high를 교환
-    print(data, high)
     return high # pivot의 인덱스 high를 반환
 
 data = [6, 5, 7, 9, 18, 3, 8] # 입력 리스트
-#print("Original:", data)
 print("k번째 작은 수:", quick_select(data, 0, len(data)-1, 4))
